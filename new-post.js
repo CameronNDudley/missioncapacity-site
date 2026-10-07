@@ -118,7 +118,7 @@ ${nav(true)}
 ${bodyHtml}
     </article>
     <div class="post-byline">
-      By Cameron Dudley, founder of Mission Capacity in Omaha. <a href="../blog.html">&larr; All posts</a> · <a href="mailto:cameronndudley1@gmail.com">Start an operations audit</a>
+      By Cameron Dudley, founder of Mission Capacity in Omaha. <a href="../blog.html">&larr; All posts</a> · <a href="https://calendar.app.google/fmADuB7EmJujLEcz7" target="_blank" rel="noopener">Book a workflow audit</a>
     </div>
   </div>
 </main>
