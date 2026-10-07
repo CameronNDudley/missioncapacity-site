@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Workflow Audit Kit — Mission Capacity</title>
+<meta name="description" content="A repeatable AI workflow-audit method, proven on a real nonprofit client, rebuilt into a reusable diagnostic tool that maps how work actually happens.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mission Capacity</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">About</a>
+      <a href="case-study-prospectpulse.html">ProspectPulse</a>
+      <a href="case-study-audit-kit.html" class="active">Audit Kit</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<section class="case-hero">
+  <div class="wrap">
+    <div class="eyebrow">Case Study</div>
+    <h1>AI Workflow Audit Kit — Finding Where AI Actually Helps</h1>
+    <p class="subhead">A structured discovery method — proven on a real nonprofit client — productized into a reusable tool that maps how work actually happens, separates real bottlenecks from busywork, and prioritizes what to build first.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+
+    <section>
+      <h2 class="section-title">The Problem</h2>
+      <p class="lead">Most "here's where AI can help you" conversations start from a guess. Either AI gets pitched everywhere, or a client reflexively distrusts it — and neither is grounded in how the organization actually operates day to day.</p>
+      <p class="lead" style="margin-top:16px;">The real risk sits on the consultant's side: proposing a "future state" that's just today's process with an AI logo taped on top. That's the fastest way to lose a client's trust — and it happens when a discovery call turns into a wishlist instead of a diagnosis.</p>
+      <p class="lead" style="margin-top:16px;">What was missing was a repeatable method: one that captures how work happens in the client's own words, holds every claimed pain point to a number they actually stated — never an invented one — and tells them plainly which processes are healthy and shouldn't be touched.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">What I Built</h2>
+      <p class="lead">The audit itself ran the way audits actually happen: a real conversation, not software. I sat down with the Executive Director of a small, founder-run nonprofit for 90 minutes and mapped five core workflows — grant finding &amp; writing, sponsorship development, a ticket-sale push, a weekly content process, and the org's annual program cycle. Every duration on the map is a number he stated out loud; every step he didn't quantify is marked as an open question, never a guess. That discipline — never inventing a number — is the whole point of the method, and it's visible in the map itself, below.</p>
+      <p class="lead" style="margin-top:16px;">From that audit I built two things. The first is a client-specific diagnostic — the process map built directly from his numbers, shown in <a href="#in-action">See It In Action</a> below. The second is the reusable version: I extracted the method into <strong>the Audit Kit</strong>, a self-contained, multi-client discovery instrument built as a Claude Artifact, so the next audit runs the same rigorous process without starting from a blank page:</p>
+      <table>
+        <thead>
+          <tr><th>Tab</th><th>What It Does</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Tab">Prep</td><td data-label="What It Does">Discovery-call script, the five things to capture per step, and the gap-classification key — used before and during the meeting</td></tr>
+          <tr><td data-label="Tab">Capture</td><td data-label="What It Does">A live table built for typing while someone talks: current state, then diagnosis, then future design, in three separate passes</td></tr>
+          <tr><td data-label="Tab">Present</td><td data-label="What It Does">The client-facing view — current-state, bottleneck, and future-state process maps, plus a time-distribution bar showing where the hours actually go</td></tr>
+          <tr><td data-label="Tab">Opportunities</td><td data-label="What It Does">A scored backlog (Impact × 1.5 + Breadth + Pull × 1.2, divided by Lift) that separates real projects from favors</td></tr>
+          <tr><td data-label="Tab">Export</td><td data-label="What It Does">Generates a Markdown brief or JSON backup — nothing leaves the browser until it's exported</td></tr>
+        </tbody>
+      </table>
+      <p class="lead" style="margin-top:16px;">It's client-agnostic by design: a new audit switcher for the next organization, not a rebuild.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">The Result</h2>
+      <p class="lead">Running the real audit surfaced findings a generic AI pitch would never have found.</p>
+      <table>
+        <thead>
+          <tr><th>Finding</th><th>What the Map Showed</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Finding">A cancelled tool took capability with it, silently</td>
+            <td data-label="What the Map Showed">The client had cancelled a $570/month grant-research subscription (~$6,840/year) — but 3 of the 8 steps in the grant-finding process were performed by that software. Nothing replaced them, and it hadn't been named as a gap until the map made it visible.</td>
+          </tr>
+          <tr>
+            <td data-label="Finding">The strongest asset was going unmeasured</td>
+            <td data-label="What the Map Showed">The client's personal outreach and media presence — genuinely their best skill — had no tracked link, no call to action, and no cadence behind it, six days before a ticket-sale deadline.</td>
+          </tr>
+          <tr>
+            <td data-label="Finding">One process needed nothing</td>
+            <td data-label="What the Map Showed">The weekly content post was precisely timed (about an hour, in season) and working fine. The map recommended leaving it alone — a finding in its own right, and the credibility that makes the other findings believable.</td>
+          </tr>
+          <tr>
+            <td data-label="Finding">The size of every fix was legible, not aspirational</td>
+            <td data-label="What the Map Showed">The future-state map phased fixes by build size — a deadline tracker and answer library sized at days of work, a full grant-discovery engine explicitly parked as a separate, much larger build.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="label">Before</div>
+          <div class="value">$6,840/yr gap, never named</div>
+          <p style="margin:8px 0 0; color:var(--slate); font-size:0.9rem;">No visibility into where the org's own hours went</p>
+        </div>
+        <div class="ba-box after">
+          <div class="label">After</div>
+          <div class="value">Mapped, scored, phased by build size</div>
+          <p style="margin:8px 0 0; color:var(--slate); font-size:0.9rem;">A reusable instrument that runs the next audit in a fraction of the time</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="in-action">
+      <h2 class="section-title">See It In Action</h2>
+      <p class="lead">This is the client-specific map built directly from the Jet Award Foundation audit — the grant-finding process, flagged as an efficiency gap. Steps the client never put a number on are marked <em>not timed</em> rather than estimated; the steps a cancelled $570/month tool used to handle are marked <em>cancelled</em>. The flagged priority: "Deadline tracking is the highest-value fix on this map — a missed deadline is a lost grant, and it's also the cheapest gap to close."</p>
+      <div class="card" style="padding:12px; margin-top:16px;">
+        <img src="audit-kit-screenshot.png" alt="Bottleneck-layer process map for the Jet Award Foundation's grant-finding workflow, showing steps marked not timed or cancelled, and a flagged priority reading: deadline tracking is the highest-value fix on this map." style="width:100%; height:auto; border-radius:6px; display:block;">
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Why It Matters</h2>
+      <div class="callout">
+        This isn't a generic audit template. It's a method proven in a live client engagement, then rebuilt into a tool that scales it to every future client — turning a skill I already had (asking the right discovery questions) into a structured, AI-assisted diagnostic that produces a defensible before/after instead of a sales pitch.
+      </div>
+      <p class="lead" style="margin-top:20px;"><strong>Skills demonstrated:</strong> AI workflow design (mapping and rebuilding a real process with AI embedded) · AI readiness assessment (evaluating an org, classifying gaps, prioritizing a roadmap) · AI process documentation (a written, transferable methodology) · Claude platform expertise (Artifacts, structured prompting, browser-persisted client tooling).</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Let's Talk</h2>
+      <p class="lead">Want to see how this method would map your team's own workflows?</p>
+      <a href="mailto:cameronndudley1@gmail.com" class="btn">cameronndudley1@gmail.com</a>
+      <a href="index.html" class="btn outline">Back to Home</a>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Built by Cameron Dudley for Mission Capacity · &copy; 2026 · Omaha, NE
+  </div>
+</footer>
+
+</body>
+</html>
