@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jet Award CRM — Mission Capacity</title>
+<meta name="description" content="A CRM built inside the Gmail and Google Sheets a one-person nonprofit already uses: one label in Gmail logs a gift, and a live dashboard updates every 15 minutes.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mission Capacity</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">About</a>
+      <a href="case-study-prospectpulse.html">ProspectPulse</a>
+      <a href="case-study-audit-kit.html">Audit Kit</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<section class="case-hero">
+  <div class="wrap">
+    <div class="eyebrow">Case Study</div>
+    <h1>A CRM Inside Gmail and Google Sheets, Built for a One-Person Nonprofit</h1>
+    <p class="subhead">The Jet Award Foundation's sponsor, donor, and grant information was scattered across payment platforms, checks, and emailed lists. Now it lives in one sheet, with a live dashboard that updates from the director's inbox every 15 minutes.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+
+    <section>
+      <h2 class="section-title">At a Glance</h2>
+      <table>
+        <thead>
+          <tr><th>Item</th><th>Detail</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Item">Client</td><td data-label="Detail">Jet Award Foundation, a nonprofit that honors college football's top return specialist</td></tr>
+          <tr><td data-label="Item">Who runs it</td><td data-label="Detail">Mike'l Severe, executive director and the foundation's only staff member</td></tr>
+          <tr><td data-label="Item">The problem</td><td data-label="Detail">Sponsor, donor, and ticket data scattered across Zeffy, Square, event platforms, checks, and emailed lists</td></tr>
+          <tr><td data-label="Item">What I built</td><td data-label="Detail">A CRM in Google Sheets, connected to his Gmail, with a live dashboard, action flags, and a grant calendar</td></tr>
+          <tr><td data-label="Item">What he had to change</td><td data-label="Detail">One habit: apply a Gmail label. No new login, no new subscription</td></tr>
+          <tr><td data-label="Item">Built with</td><td data-label="Detail">Google Sheets, Gmail, Google Apps Script</td></tr>
+          <tr><td data-label="Item">Timeline</td><td data-label="Detail">Discovery in August 2026. Live and tested with Mike'l on October 7, 2026</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">The Challenge: No Single Place Showed Who Had Given</h2>
+      <p class="lead">Mike'l is the foundation's director, fundraiser, and communications team in one. Money and leads came in through Zeffy, Square, the auction and gala platforms, checks and emails that arrived in the mail, and lists passed along by his board president and others. Grant deadlines showed up as emails.</p>
+      <p class="lead">Nothing showed in one view who had given, who had been asked, or what was due next. Pulling it together for the quarterly board budget report meant doing it by hand.</p>
+      <div class="callout" style="margin-top:20px;">
+        The constraint that shaped everything: a one-person shop cannot absorb a new tool. A system that asked him to log in somewhere new, or retype what he had already written in an email, would likely end up unused.
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">The Approach: Build Around His Workflow, Not Over It</h2>
+      <p class="lead">Before writing anything, I spent 90 minutes mapping how the foundation actually runs, step by step, using only the times and numbers Mike'l stated himself. Two things stood out. He works from Gmail, even keeping a draft email as his scratchpad for the weekly highlight post. And that weekly post takes about an hour and works fine, so I left it alone. That shaped three rules.</p>
+      <div class="skills-grid">
+        <div class="skill-chip">
+          <strong>1 · Gmail is the interface</strong>
+          <span>He sends and labels email the way he already does. The CRM listens.</span>
+        </div>
+        <div class="skill-chip">
+          <strong>2 · Google Sheets is the home</strong>
+          <span>It is familiar, he can filter and export it himself, and nothing is locked inside a platform he has to learn.</span>
+        </div>
+        <div class="skill-chip">
+          <strong>3 · A person decides the money</strong>
+          <span>The CRM flags and suggests. It never invents a dollar amount.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">What I Built: A Label in Gmail Becomes a Row and a Dashboard Number</h2>
+      <p class="lead">Mike'l changes one habit: when someone says yes, he labels the email. Everything after that runs without him, except typing the amount.</p>
+      <div class="card">
+        <div class="timeline-item">
+          <h4>1 · Mike'l labels the email</h4>
+          <p>When someone says yes to a gift, he applies the Gmail label CRM/Committed.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2 · The CRM picks it up</h4>
+          <p>Within 15 minutes it marks the person Committed, dated from that thread, and relabels the email CRM/Committed - Logged.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>3 · The sheet flags what's missing</h4>
+          <p>The Action Needed? column says ADD $ AMOUNT, and a banner shows on the dashboard. Hovering over the amount cell lists any dollar figures the CRM saw in the thread.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>4 · Mike'l types the final amount</h4>
+          <p>This is the only manual step. The CRM never fills in dollars on its own.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>5 · The dashboard updates</h4>
+          <p>The gift counts toward the season total and shows in the event and year views.</p>
+        </div>
+      </div>
+      <p class="lead" style="margin-top:20px;">The label is the main path. The same Gmail connection handles the rest of his day:</p>
+      <table>
+        <thead>
+          <tr><th>When this happens</th><th>The CRM does this</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="When this happens">He emails a prospect</td><td data-label="The CRM does this">Fills in Last Touch and moves the status up to Contacted</td></tr>
+          <tr><td data-label="When this happens">A prospect replies</td><td data-label="The CRM does this">Stamps the reply and shows REPLY WAITING</td></tr>
+          <tr><td data-label="When this happens">A follow-up date arrives</td><td data-label="The CRM does this">Shows FOLLOW UP</td></tr>
+          <tr><td data-label="When this happens">He labels an email CRM/Add to CRM</td><td data-label="The CRM does this">Adds the person as a new row</td></tr>
+          <tr><td data-label="When this happens">He logs a call in a Gmail draft titled CRM:</td><td data-label="The CRM does this">Updates the row, then deletes the draft</td></tr>
+        </tbody>
+      </table>
+      <p class="lead" style="margin-top:20px;">The same sheet also holds a Grant Calendar tab: a monthly view of grant openings and deadlines.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Before and After</h2>
+      <table>
+        <thead>
+          <tr><th>&nbsp;</th><th>Before</th><th>After</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="">Where the data lives</td>
+            <td data-label="Before">Zeffy, Square, auction and gala platforms, checks, emailed lists</td>
+            <td data-label="After">One Google Sheet, synced to his Gmail every 15 minutes</td>
+          </tr>
+          <tr>
+            <td data-label="">Logging a gift</td>
+            <td data-label="Before">Collected by hand from each source</td>
+            <td data-label="After">Apply a Gmail label, then type the amount</td>
+          </tr>
+          <tr>
+            <td data-label="">Outreach and replies</td>
+            <td data-label="Before">In his inbox and sent mail</td>
+            <td data-label="After">Last Touch fills in when he emails a prospect. A reply flags REPLY WAITING</td>
+          </tr>
+          <tr>
+            <td data-label="">What needs him next</td>
+            <td data-label="Before">No single list</td>
+            <td data-label="After">One column, Action Needed?, says ADD $ AMOUNT, REPLY WAITING, or FOLLOW UP</td>
+          </tr>
+          <tr>
+            <td data-label="">Quarterly board budget report</td>
+            <td data-label="Before">Pulled together by hand</td>
+            <td data-label="After">A dashboard filtered by event and year</td>
+          </tr>
+          <tr>
+            <td data-label="">Grant deadlines</td>
+            <td data-label="Before">Arrived as emails</td>
+            <td data-label="After">A Grant Calendar tab with a monthly view of openings and deadlines</td>
+          </tr>
+          <tr>
+            <td data-label="">A new list from Zeffy, Square, or a gala</td>
+            <td data-label="Before">Another silo</td>
+            <td data-label="After">Export a CSV into a new tab. I merge it and check for duplicates</td>
+          </tr>
+          <tr>
+            <td data-label="">What Mike'l had to learn</td>
+            <td data-label="Before">&mdash;</td>
+            <td data-label="After">One Gmail label, plus a one-page guide</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">The Result: One View, No New Software to Learn</h2>
+      <p class="lead">These numbers come from the live dashboard on October 7, 2026, the day it went live.</p>
+      <table>
+        <thead>
+          <tr><th>Measure</th><th>Result</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Measure">Prospects and donors in one list</td><td data-label="Result" class="fit-strong">206</td></tr>
+          <tr><td data-label="Measure">Committed supporters logged for 2026</td><td data-label="Result" class="fit-strong">22</td></tr>
+          <tr><td data-label="Measure">Lists imported at launch</td><td data-label="Result">Zeffy, Square, and the other sources</td></tr>
+          <tr><td data-label="Measure">Sync from Gmail to the sheet</td><td data-label="Result">Every 15 minutes, no manual refresh</td></tr>
+          <tr><td data-label="Measure">New logins or subscriptions for Mike'l</td><td data-label="Result">0</td></tr>
+          <tr><td data-label="Measure">Time saved on each quarterly board budget report</td><td data-label="Result" class="fit-moderate">About 3 hours (estimate)</td></tr>
+        </tbody>
+      </table>
+      <p class="lead" style="margin-top:20px;">The time-saved figure is my estimate, based on the five or more sources the report had to be pulled together from by hand. Mike'l hasn't confirmed it yet, so I'm labeling it as an estimate.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">What Keeps It Trustworthy</h2>
+      <p class="lead">A CRM only helps if the director believes its numbers. A few rules protect that.</p>
+      <div class="card">
+        <div class="timeline-item">
+          <h4>No guessed dollars</h4>
+          <p>When a thread mentions an amount, hovering over the cell shows the figures it saw. Mike'l types the final number.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Status only moves up</h4>
+          <p>Email activity can move a contact forward, never backward, and a gift from a prior year stays out of this year's total.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Unclear cases go to a review label</h4>
+          <p>If the CRM cannot match a thread to a person, it files the thread under CRM/Needs a look instead of guessing.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Imports get a second look</h4>
+          <p>A list from Zeffy, Square, or a gala goes into its own tab first. I merge it and check for duplicates.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Tested before it touched his inbox</h4>
+          <p>I ran the label logic against a mock mailbox before it went near his real Gmail.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Documented</h4>
+          <p>He has a one-page guide with a labeled picture of the dashboard, so every number has a known source.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Why It Matters</h2>
+      <div class="callout">
+        If your team already works in email and spreadsheets, you do not need a new platform to get a real CRM. Start with how the work actually happens, then build around it.
+      </div>
+      <p class="lead" style="margin-top:20px;"><strong>Skills demonstrated:</strong> stakeholder discovery and process mapping · CRM design · Google Apps Script and Gmail automation · data import and de-duplication · human-in-the-loop design · testing before launch · documentation and handoff.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">More From the Jet Award Engagement</h2>
+      <a href="case-study-prospectpulse.html" class="card project-card" style="display:block;">
+        <div class="meta">Case Study · Sponsor Research</div>
+        <h3>ProspectPulse Reports: 20 Researched Sponsor Prospects, Every Contact Checked</h3>
+        <p>The same foundation's other bottleneck was finding and researching corporate sponsors. ProspectPulse Reports returns 20 ranked prospects, and code decides what counts as verified.</p>
+        <span class="cta-link">Read the case study →</span>
+      </a>
+    </section>
+
+    <section>
+      <h2 class="section-title">Let's Talk</h2>
+      <p class="lead">Want to see how your team's own workflow could run inside the tools you already use?</p>
+      <a href="https://calendar.app.google/fmADuB7EmJujLEcz7" class="btn" target="_blank" rel="noopener">Book a workflow audit</a>
+      <a href="mailto:cameronndudley1@gmail.com" class="btn outline">cameronndudley1@gmail.com</a>
+      <a href="index.html" class="btn outline">Back to Home</a>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Built by Cameron Dudley for Mission Capacity · &copy; 2026 · Omaha, NE
+  </div>
+</footer>
+
+</body>
+</html>
