@@ -70,7 +70,7 @@ const nav = (active) => `<header class="site-header">
       <a href="../skills.html">About</a>
       <a href="../case-study-prospectpulse.html">ProspectPulse</a>
       <a href="../case-study-audit-kit.html">Audit Kit</a>
-      <a href="../blog.html"${active ? ' class="active"' : ""}>Blog</a>
+      <a href="../blog.html"${active ? ' class="active"' : ""}>Blog &amp; Case Studies</a>
     </nav>
   </div>
 </header>`;
