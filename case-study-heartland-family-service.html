@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heartland Family Service MarComm Workflow — Mission Capacity</title>
+<meta name="description" content="How Heartland Family Service's marketing team rebuilt its request workflow: nine clear stages, a named sign-off at each one, and form requests that become Trello cards automatically.">
+<link rel="canonical" href="https://missioncapacity.netlify.app/case-study-heartland-family-service.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mission Capacity</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">About</a>
+      <a href="case-study-prospectpulse.html">ProspectPulse</a>
+      <a href="case-study-audit-kit.html">Audit Kit</a>
+      <a href="blog.html" class="active">Blog &amp; Case Studies</a>
+    </nav>
+  </div>
+</header>
+
+<section class="case-hero">
+  <div class="wrap">
+    <div class="eyebrow">Case Study · Heartland Family Service</div>
+    <h1>Fixing a Broken Marketing Request Workflow Without Buying New Software</h1>
+    <p class="subhead">Heartland Family Service's marketing team was tracking every flyer, postcard, and social post on a Trello board that had stopped telling them where work stood. We rebuilt the process around clear stages and owners, then connected their request form to Trello so new requests set themselves up.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+
+    <section>
+      <h2 class="section-title">At a Glance</h2>
+      <table>
+        <thead>
+          <tr><th>Item</th><th>Detail</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Item">Client</td><td data-label="Detail">Heartland Family Service, an Omaha nonprofit providing behavioral health, family, and crisis services</td></tr>
+          <tr><td data-label="Item">Team</td><td data-label="Detail">Marketing &amp; Communications, plus Development leadership, who sign off on grant-funded materials</td></tr>
+          <tr><td data-label="Item">The problem</td><td data-label="Detail">Requests arrived with too much copy and open-ended asks, status was tracked three different ways, and finished work stalled at the back of the board for months</td></tr>
+          <tr><td data-label="Item">What we built</td><td data-label="Detail">A nine-stage workflow with a named sign-off at each stage, per-stage to-dos and timelines, a redesigned request form, and a form-to-Trello automation</td></tr>
+          <tr><td data-label="Item">New software purchased</td><td data-label="Detail">None. Built on the Microsoft 365 forms and Trello board the team already used</td></tr>
+          <tr><td data-label="Item">Built with</td><td data-label="Detail">SharePoint / Microsoft Forms, Power Automate (standard connectors only), Trello and Butler</td></tr>
+          <tr><td data-label="Item">Timeline</td><td data-label="Detail">Discovery in September 2026. Workflow, forms, and automation finalized with the full team on November 5, 2026</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">The Challenge: The Board Had Stopped Being the Process</h2>
+      <p class="lead">Staff across the agency request marketing pieces through a form. The marketing team then works each request as a card on a Trello board. On paper, that's a sound setup. In practice, the board had drifted so far that the team needed a reference card just to explain what its own labels meant.</p>
+      <p class="lead">When I walked the board card by card, the friction showed up in three places:</p>
+      <div class="skills-grid">
+        <div class="skill-chip">
+          <strong>1 · What came in</strong>
+          <span>Requests arrived with four pages of copy for a one-page flyer, and photo choices were open-ended. One flyer carried 34 comments of back-and-forth.</span>
+        </div>
+        <div class="skill-chip">
+          <strong>2 · Status, three ways</strong>
+          <span>Priority lived in a label and a custom field that disagreed. Status was typed into card titles in capitals: "READY FOR REQUESTEE REVIEW," "FUNDING STATEMENT NEEDED."</span>
+        </div>
+        <div class="skill-chip">
+          <strong>3 · The stalled back half</strong>
+          <span>Cards marked complete months earlier were still waiting to be uploaded, and one proof was three months overdue. Nobody clearly owned the last steps.</span>
+        </div>
+      </div>
+      <div class="callout" style="margin-top:20px;">
+        The detail that changed the scope: grant-funded print pieces need a funding statement from Development before they can be approved. Marketing's timeline depended on another department, so the fix had to include both teams in the room.
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">The Approach: Process First, Automation Second</h2>
+      <p class="lead">The marketing manager had already drafted a new flow, and it was a good one. My job was to pressure-test it against what the board showed, not to replace it with mine. I set three rules for the engagement.</p>
+      <div class="skills-grid">
+        <div class="skill-chip">
+          <strong>1 · Evidence from the board</strong>
+          <span>Every recommendation pointed to something real on the cards: comment counts, overdue dates, duplicated fields.</span>
+        </div>
+        <div class="skill-chip">
+          <strong>2 · Fix the rules before the tools</strong>
+          <span>Copy limits, revision caps, and clear owners come first. Automating a broken process only makes it break faster.</span>
+        </div>
+        <div class="skill-chip">
+          <strong>3 · Use what they already have</strong>
+          <span>Microsoft 365 and Trello were already in place. No new platform, no premium license.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">What We Built Together</h2>
+      <div class="card">
+        <div class="timeline-item">
+          <h4>1 · Defined the stages</h4>
+          <p>An earlier 13-stage draft became nine: Request Received, Copy Queue, Copy In Progress, Copy Review &amp; Proof, Design Queue, Design In Progress, Design Review &amp; Proof, Fulfillment, and Done. Copy is locked before design starts, which removes the most expensive kind of rework.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2 · Named who signs off at each stage</h4>
+          <p>Every stage has an owner by role, including Development's funding-statement check. Nothing sits in a column waiting for "someone."</p>
+        </div>
+        <div class="timeline-item">
+          <h4>3 · Redesigned the request form</h4>
+          <p>Nearly every question became a click instead of a text box, so the answers are clean enough to automate. The form now caps copy, flags grant funding early, and settles the photo question up front.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>4 · Connected the form to Trello</h4>
+          <p>A form submission now creates a complete Trello card in Request Received: titled, labeled by category, dated, with every answer in the description. In testing, the first card appeared in one second with no one retyping anything.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>5 · Set to-dos and timelines for every stage</h4>
+          <p>The full team walked each stage's checklist together and agreed on realistic timeframes, so anyone can see where a project stands and what's due next.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>6 · Documented it for handoff</h4>
+          <p>A step-by-step SOP with annotated screenshots covers the form, the automation, and the Trello rules, so the system can be maintained without me.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Before and After</h2>
+      <table>
+        <thead>
+          <tr><th>&nbsp;</th><th>Before</th><th>After</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="">Getting a request onto the board</td>
+            <td data-label="Before">Someone read the form and built the card by hand</td>
+            <td data-label="After">The form creates the card automatically</td>
+          </tr>
+          <tr>
+            <td data-label="">Request quality</td>
+            <td data-label="Before">Open text fields, unlimited copy, open-ended photo picks</td>
+            <td data-label="After">Mostly click answers, a copy limit, and photo and grant-funding questions up front</td>
+          </tr>
+          <tr>
+            <td data-label="">Workflow stages</td>
+            <td data-label="Before">Columns that had drifted, with unrelated work sharing "Final Proof"</td>
+            <td data-label="After">Nine agreed stages, each with one job</td>
+          </tr>
+          <tr>
+            <td data-label="">Who approves</td>
+            <td data-label="Before">Unclear, especially for the final steps</td>
+            <td data-label="After">A named sign-off at every stage</td>
+          </tr>
+          <tr>
+            <td data-label="">Project status</td>
+            <td data-label="Before">Labels, a custom field, and capital letters in titles</td>
+            <td data-label="After">One status field, set by the stage the card is in</td>
+          </tr>
+          <tr>
+            <td data-label="">Grant funding statements</td>
+            <td data-label="Before">Handled in email, outside the board</td>
+            <td data-label="After">Flagged on the form and built into the stage checklist</td>
+          </tr>
+          <tr>
+            <td data-label="">Rework after review</td>
+            <td data-label="Before">No defined path back</td>
+            <td data-label="After">A "Send back for changes" button returns the card to the right stage</td>
+          </tr>
+          <tr>
+            <td data-label="">New software cost</td>
+            <td data-label="Before">&mdash;</td>
+            <td data-label="After">$0. Standard Microsoft 365 connectors and the existing Trello board</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">In Their Words</h2>
+      <div class="testimonial">
+        <p>Our team was operating with a significantly broken workflow when Cameron Dudley joined us. He collaborated with us to develop an efficient new process while optimizing our existing workflow platform.</p>
+        <p>Cameron’s contribution extended well beyond the deliverables themselves. His work fundamentally shifted how our team evaluates and approaches projects. He guided us in establishing clear lanes and timelines, giving every team member much-needed clarity. He brings a true understanding of process and a skilled approach to integrating low- and no-cost technology. He delivers thoughtful, practical, and sustainable solutions without relying on expensive tools or unnecessary complexity.</p>
+        <p>Cameron is professional, timely, collaborative, and he is a true pleasure to work with. He approaches each engagement with great consideration, and is impressively effective at balancing the requirements of leadership, the needs of those performing the day-to-day work, and end user experience. I recommend Cameron without reservation to any organization seeking to operate more effectively.</p>
+        <div class="testimonial-author">
+          <strong>Marie Schuett</strong>
+          <span>Marketing &amp; Communication Manager, Heartland Family Service</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">The Result: Clear Lanes, Clear Timelines</h2>
+      <p class="lead">The goal was never a perfect system. It was a shared framework the whole team trusts, so people spend more time doing the work and less time figuring out what needs to be done.</p>
+      <table>
+        <thead>
+          <tr><th>Measure</th><th>Result</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Measure">Workflow stages</td><td data-label="Result" class="fit-strong">13 in the early draft → 9 agreed</td></tr>
+          <tr><td data-label="Measure">Stages with a named sign-off</td><td data-label="Result" class="fit-strong">Every one</td></tr>
+          <tr><td data-label="Measure">Manual steps to turn a form request into a card</td><td data-label="Result" class="fit-strong">0</td></tr>
+          <tr><td data-label="Measure">Time from submit to card, in testing</td><td data-label="Result">1 second</td></tr>
+          <tr><td data-label="Measure">Typed answers on the request form</td><td data-label="Result">1 (the project name). Everything else is a click</td></tr>
+          <tr><td data-label="Measure">New tools or premium licenses purchased</td><td data-label="Result">0</td></tr>
+        </tbody>
+      </table>
+      <p class="lead" style="margin-top:20px;">The team is rolling the new process out in November 2026. I'm checking back about a month after launch to see what's working and adjust what isn't, so the next version of this page will include real usage numbers.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Why It Matters</h2>
+      <div class="callout">
+        Most "we need a better tool" problems are really "we need clearer rules" problems. Settle the stages, the owners, and what a good request looks like first. Then the tools you already pay for can do most of the rest.
+      </div>
+      <p class="lead" style="margin-top:20px;"><strong>Skills demonstrated:</strong> process mapping and redesign · cross-department facilitation · form design for clean data · Power Automate and Trello automation · change management · SOP writing and handoff.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">More Case Studies</h2>
+      <a href="case-study-jet-award-crm.html" class="card project-card" style="display:block;">
+        <div class="meta">Case Study · Jet Award Foundation</div>
+        <h3>A CRM Inside Gmail and Google Sheets</h3>
+        <p>Another build around the tools a nonprofit already uses: one Gmail label logs a gift, and a live dashboard updates every 15 minutes. No new login, no new subscription.</p>
+        <span class="cta-link">Read the case study →</span>
+      </a>
+    </section>
+
+    <section>
+      <h2 class="section-title">Let's Talk</h2>
+      <p class="lead">Does your team have a process everyone works around instead of through? Let's map it and find the real bottleneck.</p>
+      <a href="https://calendar.app.google/fmADuB7EmJujLEcz7" class="btn" target="_blank" rel="noopener">Book a workflow audit</a>
+      <a href="mailto:cameronndudley1@gmail.com" class="btn outline">cameronndudley1@gmail.com</a>
+      <a href="index.html" class="btn outline">Back to Home</a>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Built by Cameron Dudley for Mission Capacity · &copy; 2026 · Omaha, NE
+  </div>
+</footer>
+
+</body>
+</html>
